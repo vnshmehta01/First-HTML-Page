@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Sample HTML Page</title>
+
+<style>
+  table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 10px auto;
+  }
+  table, th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+  }
+  form {
+    width: 50%;
+    margin: 0 auto;
+  }
+  input, button {
+    margin-bottom: 10px;
+  }
+</style>
+</head>
+<body>
+  <h1>WELCOME TO MY FIRST HTML PAGE</h1>
+  
+  <img src="https://www.adorama.com/alc/wp-content/uploads/2018/11/landscape-photography-tips-yosemite-valley-feature-825x465.jpg" alt="Sample Image">
+  
+  <h2>Sample Table</h2>
+  <table>
+    <tr>
+      <th>Header 1</th>
+      <th>Header 2</th>
+      <th>Header 3</th>
+      <th>Header 4</th>
+    </tr>
+    <tr>
+      <td>Row 1, Cell 1</td>
+      <td>Row 1, Cell 2</td>
+      <td>Row 1, Cell 3</td>
+      <td>Row 1, Cell 4</td>
+    </tr>
+    <tr>
+      <td>Row 2, Cell 1</td>
+      <td>Row 2, Cell 2</td>
+      <td>Row 2, Cell 3</td>
+      <td>Row 2, Cell 4</td>
+    </tr>
+  </table>
+  
+  <h2>Sample Form</h2>
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" required>
+    <br>
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+    <br>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
